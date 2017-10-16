@@ -1,0 +1,31 @@
+$primary-color: #ffab00;
+$header-color: #064159;
+$font-stack: 'Lato', sans-serif;
+
+html {
+  max-width: 320px;
+  max-height: 923px;
+}
+header {
+  width: 320px;
+  height: 58px;
+  background-color: $primary-color;
+}
+a {
+  word-spacing: -10px;
+  text-decoration: none;
+  width: 202px;
+	height: 15px;
+  font-family:$font-stack;
+	font-size: 21px;
+	line-height: 1.29;
+	letter-spacing: 2.1px;
+	text-align: left;
+	color: $header-color;
+}
+.tech {
+font-weight:100; 
+}
+.lancaster {
+  font-weight: 900;
+}
