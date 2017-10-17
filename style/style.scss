@@ -1,5 +1,5 @@
 @import "header";
-
+@import "general";
 html {
   max-width: 320px;
   max-height: 923px;
@@ -22,8 +22,8 @@ a {
 	color: $header-color;
 }
 .tech {
-font-weight:100;
+  font-weight:$tech-weight;
 }
 .lancaster {
-  font-weight: 900;
+  font-weight:$lancaster-weight;
 }
