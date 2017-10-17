@@ -1,3 +1,27 @@
-$primary-color: #ffab00;
-$header-color: #064159;
-$font-stack: 'Lato', sans-serif;
+header {
+  padding-top: 20px;
+  width:320px ;
+  height: 38px;
+  background-color:$primary-color;
+  a {
+    word-spacing: -32px;
+    text-decoration: none;
+    width: 202px;
+    height: 15px;
+    font-family:$font-stack;
+    font-size: 21px;
+    line-height: 1.29;
+    letter-spacing: 2.1px;
+    color: $text-color;
+    margin: 21px 0px 0px 24px;
+  }
+}
+    .tech {
+      font-weight:$tech-weight;
+    }
+      .lancaster {
+        font-weight:$lancaster-weight;
+}
+.dropdown {
+margin-left: 100px;
+}

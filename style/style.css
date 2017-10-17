@@ -1,28 +1,33 @@
-html {
-  max-width: 320px;
-  max-height: 923px; }
-
 header {
+  padding-top: 20px;
   width: 320px;
-  height: 58px;
+  height: 38px;
   background-color: #ffab00; }
-
-a {
-  word-spacing: -10px;
-  text-decoration: none;
-  width: 202px;
-  height: 15px;
-  font-family: "Lato", sans-serif;
-  font-size: 21px;
-  line-height: 1.29;
-  letter-spacing: 2.1px;
-  text-align: left;
-  color: #064159; }
+  header a {
+    word-spacing: -32px;
+    text-decoration: none;
+    width: 202px;
+    height: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+    line-height: 1.29;
+    letter-spacing: 2.1px;
+    color: #064159;
+    margin: 21px 0px 0px 24px; }
 
 .tech {
   font-weight: 100; }
 
 .lancaster {
   font-weight: 900; }
+
+.dropdown {
+  margin-left: 100px; }
+
+html {
+  width: 100%; }
+  html body {
+    max-height: 923px;
+    max-width: 320px; }
 
 /*# sourceMappingURL=style.css.map */
