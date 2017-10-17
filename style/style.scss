@@ -1,6 +1,4 @@
-$primary-color: #ffab00;
-$header-color: #064159;
-$font-stack: 'Lato', sans-serif;
+@import "header";
 
 html {
   max-width: 320px;
@@ -24,7 +22,7 @@ a {
 	color: $header-color;
 }
 .tech {
-font-weight:100; 
+font-weight:100;
 }
 .lancaster {
   font-weight: 900;
