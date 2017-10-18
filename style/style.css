@@ -1,12 +1,12 @@
 header {
   padding-top: 20px;
-  width: 320px;
+  width: 100%;
   height: 38px;
   background-color: #ffab00; }
   header a {
-    word-spacing: -32px;
+    word-spacing: -33px;
     text-decoration: none;
-    width: 202px;
+    width: 100%;
     height: 15px;
     font-family: "Lato", sans-serif;
     font-size: 21px;
@@ -23,11 +23,11 @@ header {
 
 .image {
   background-image: url("../images/background.jpg");
-  width: 320px;
+  width: 100%;
   height: 360px;
   background-size: 500px 0px 0px 0px; }
 
-.header2 {
+.header1 {
   color: #efe9d8;
   width: 244px;
   height: 153px;
@@ -38,15 +38,18 @@ header {
   letter-spacing: 1.8px;
   text-align: left;
   margin: 0px 153px 0px 27px;
-  padding: 60px 30px 30px 10px; }
+  padding: 60px 30% 30px 10px; }
+
+body {
+  width: 100%; }
 
 .maincontainer {
   height: 923px;
-  width: 94%; }
+  width: 100%; }
 
 .s1 {
-  width: 320px;
-  height: 750px;
+  width: 100%;
+  height: 450px;
   background-color: #ffab00;
   opacity: 0.9;
   mix-blend-mode: multiply;
