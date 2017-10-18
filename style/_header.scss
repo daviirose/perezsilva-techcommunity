@@ -21,8 +21,24 @@ header {
     }
       .lancaster {
         font-weight:$lancaster-weight;
-}
-.dropdown {
-margin-left: 100px;
-display:
-}
+        }
+        .image {
+        background-image:url("../images/background.jpg");
+        width: 320px;
+        height: 360px;
+        background-size: 500px 0px 0px 0px;
+        display: flex;
+        }
+        .header2 {
+          color: $white-text;
+          width: 244px;
+        	height: 153px;
+        	font-family: $font-stack;
+        	font-size:36px;
+        	font-weight: $lancaster-weight;
+        	line-height: 1.17;
+        	letter-spacing: 1.8px;
+        	text-align: left;
+          display: inline-flex;
+          margin: 44px 153px 0px 27px;
+        }
