@@ -27,7 +27,7 @@ header {
         width: 320px;
         height: 360px;
         background-size: 500px 0px 0px 0px;
-        display: flex;
+
         }
         .header2 {
           color: $white-text;
@@ -39,6 +39,6 @@ header {
         	line-height: 1.17;
         	letter-spacing: 1.8px;
         	text-align: left;
-          display: inline-flex;
-          margin: 44px 153px 0px 27px;
+          margin: 0px 153px 0px 27px;
+          padding: 60px 30px 30px 10px;
         }

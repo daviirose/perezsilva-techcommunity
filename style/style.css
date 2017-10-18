@@ -25,8 +25,7 @@ header {
   background-image: url("../images/background.jpg");
   width: 320px;
   height: 360px;
-  background-size: 500px 0px 0px 0px;
-  display: flex; }
+  background-size: 500px 0px 0px 0px; }
 
 .header2 {
   color: #efe9d8;
@@ -38,13 +37,38 @@ header {
   line-height: 1.17;
   letter-spacing: 1.8px;
   text-align: left;
-  display: inline-flex;
-  margin: 44px 153px 0px 27px; }
+  margin: 0px 153px 0px 27px;
+  padding: 60px 30px 30px 10px; }
 
-html {
-  width: 100%; }
-  html body {
-    max-height: 923px;
-    max-width: 320px; }
+.maincontainer {
+  height: 923px;
+  width: 94%; }
+
+.s1 {
+  width: 320px;
+  height: 750px;
+  background-color: #ffab00;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+  padding-top: 30px; }
+
+.Techlancaster {
+  width: 260px;
+  height: 538px;
+  font-family: "Droid Serif", serif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #4e1c07;
+  margin: 0px 33px -410px 27px;
+  font-weight: bold; }
+
+.Strived {
+  font-size: 15px;
+  margin: 0px 33px 0px 27px; }
+
+.Past {
+  margin: 30px 33px 0px 27px; }
 
 /*# sourceMappingURL=style.css.map */
