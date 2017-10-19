@@ -1,7 +1,34 @@
-html {
+body {
   width: 100%;
-  body {
-    max-height: 923px;
-    max-width: 320px;
+}
+  .maincontainer {
+    height: 923px;
+    width: 100%;
   }
+.s1 {
+  width: 100%;
+  height: 450px;
+	background-color: $primary-color;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+  padding-top: 30px;
+}
+.Techlancaster {
+  width: 260px;
+	height: 538px;
+	font-family: $droid-font;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 0.9px;
+	text-align: left;
+	color: $bold-textcolor;
+  margin: 0px 33px -410px 27px;
+  font-weight: bold;
+}
+.Strived {
+  font-size: 15px;
+    margin: 0px 33px 0px 27px;
+}
+.Past {
+  margin: 30px 33px 0px 27px;
 }
