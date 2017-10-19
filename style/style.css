@@ -1,10 +1,57 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 header {
   padding-top: 20px;
   width: 100%;
   height: 38px;
   background-color: #ffab00; }
   header a {
-    word-spacing: -33px;
+    word-spacing: -32px;
     text-decoration: none;
     width: 100%;
     height: 15px;
@@ -16,10 +63,12 @@ header {
     margin: 21px 0px 0px 24px; }
 
 .tech {
-  font-weight: 100; }
+  font-weight: normal;
+  width: 100%; }
 
 .lancaster {
-  font-weight: 900; }
+  font-weight: 900;
+  width: 100%; }
 
 .image {
   background-image: url("../images/background.jpg");
@@ -29,16 +78,16 @@ header {
 
 .header1 {
   color: #efe9d8;
-  width: 244px;
+  width: 65%;
   height: 153px;
   font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 900;
   line-height: 1.17;
   letter-spacing: 1.8px;
   text-align: left;
-  margin: 0px 153px 0px 27px;
-  padding: 60px 30% 30px 10px; }
+  margin: 0px 195px 0px 27px;
+  padding-top: 60px; }
 
 body {
   width: 100%; }
@@ -56,22 +105,24 @@ body {
   padding-top: 30px; }
 
 .Techlancaster {
-  width: 260px;
-  height: 538px;
   font-family: "Droid Serif", serif;
+  font-weight: 700;
   font-size: 15px;
   line-height: 1.6;
-  letter-spacing: 0.9px;
-  text-align: left;
-  color: #4e1c07;
-  margin: 0px 33px -410px 27px;
-  font-weight: bold; }
+  letter-spacing: 0.7px;
+  padding-left: 27px;
+  color: #021d2c; }
 
 .Strived {
-  font-size: 15px;
-  margin: 0px 33px 0px 27px; }
+  margin: 30px 33px 0px 27px; }
 
 .Past {
   margin: 30px 33px 0px 27px; }
+
+.div1 {
+  width: 98%;
+  height: 1px;
+  background-color: #ee3e28;
+  margin: 45px 1% 45px 1%; }
 
 /*# sourceMappingURL=style.css.map */
