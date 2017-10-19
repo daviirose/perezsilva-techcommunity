@@ -2,12 +2,12 @@ body {
   width: 100%;
 }
   .maincontainer {
-    height: 923px;
+    height: auto;
     width: 100%;
   }
 .s1 {
   width: 100%;
-  height: 450px;
+  height: 600px;
 	background-color: $primary-color;
   opacity: 0.9;
   mix-blend-mode: multiply;
@@ -29,8 +29,49 @@ body {
   margin: 30px 33px 0px 27px;
 }
 .div1 {
-  width: 98%;
+  width: 96%;
 	height: 1px;
 	background-color: #ee3e28;
-  margin: 45px 1% 45px 1%;
+  margin: 45px 2% 24px 2%;
 }
+.UpcomingMeetup {
+  width: 45%;
+	height: 11px;
+	font-family: $font-stack;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+	text-align: left;
+	color: #eb503c;
+  margin: 0px 0px 24px 5%;
+}
+.CentralPALinuxUserGroup {
+  width:75%;
+  font-size: 24px;
+  margin: 0px 0px 0px 5%;
+  font-family: $droid-font;
+  font-weight:700;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  }
+  .Date {
+    width: 45%;
+    font-size: 18px;
+    margin: 10px 0px 0px 5%;
+    text-align: left;
+  }
+  .Penn {
+    width: 55%;
+    margin: 10px 90% 10px 5%;
+  }
+  .RSVP {
+    margin-left: 5%;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .Visit {
+    display: inline-block;
+    text-decoration: none;
+  }
