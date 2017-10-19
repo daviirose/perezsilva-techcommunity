@@ -14,21 +14,23 @@ body {
   padding-top: 30px;
 }
 .Techlancaster {
-  width: 260px;
-	height: 538px;
 	font-family: $droid-font;
+  font-weight: 700;
 	font-size: 15px;
 	line-height: 1.6;
-	letter-spacing: 0.9px;
-	text-align: left;
-	color: $bold-textcolor;
-  margin: 0px 33px -410px 27px;
-  font-weight: bold;
+	letter-spacing: 0.7px;
+  padding-left: 27px;
+  color:  #021d2c;
 }
 .Strived {
-  font-size: 15px;
-    margin: 0px 33px 0px 27px;
+  margin: 30px 33px 0px 27px;
 }
 .Past {
   margin: 30px 33px 0px 27px;
+}
+.div1 {
+  width: 99%;
+	height: 1px;
+	background-color: #ee3e28;
+  margin: 45px 8px 45px 10px;
 }

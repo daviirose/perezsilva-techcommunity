@@ -4,7 +4,7 @@ header {
   height: 38px;
   background-color:$primary-color;
   a {
-    word-spacing: -33px;
+    word-spacing: -32px;
     text-decoration: none;
     width: 100%;
     height: 15px;
@@ -18,27 +18,28 @@ header {
 }
     .tech {
       font-weight:$tech-weight;
+      width: 100%;
     }
       .lancaster {
         font-weight:$lancaster-weight;
+        width: 100%;
         }
         .image {
         background-image:url("../images/background.jpg");
         width: 100%;
         height: 360px;
         background-size: 500px 0px 0px 0px;
-
         }
         .header1 {
           color: $white-text;
-          width: 244px;
+          width:100%;
         	height: 153px;
         	font-family: $font-stack;
-        	font-size:36px;
+        	font-size:35px;
         	font-weight: $lancaster-weight;
         	line-height: 1.17;
         	letter-spacing: 1.8px;
         	text-align: left;
-          margin: 0px 153px 0px 27px;
-          padding: 60px 30% 30px 10px;
+          margin: 0px 195px 0px 27px;
+          padding-top: 60px;
         }
