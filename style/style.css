@@ -1,3 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 header {
   padding-top: 20px;
   width: 100%;
@@ -31,7 +78,7 @@ header {
 
 .header1 {
   color: #efe9d8;
-  width: 100%;
+  width: 65%;
   height: 153px;
   font-family: "Lato", sans-serif;
   font-size: 35px;
@@ -73,9 +120,9 @@ body {
   margin: 30px 33px 0px 27px; }
 
 .div1 {
-  width: 99%;
+  width: 98%;
   height: 1px;
   background-color: #ee3e28;
-  margin: 45px 8px 45px 10px; }
+  margin: 45px 1% 45px 1%; }
 
 /*# sourceMappingURL=style.css.map */
