@@ -267,7 +267,8 @@ h2 {
 
 .corevaluescontainer {
   width: 100%;
-  height: 346px; }
+  height: 346px;
+  margin-bottom: 56px; }
 
 .coresubject {
   font-size: 21px;
@@ -275,7 +276,7 @@ h2 {
   line-height: 1.33;
   letter-spacing: 1px;
   color: #4e1c07;
-  margin-top: 51px;
+  margin-top: 5%;
   margin-left: 5%; }
 
 .Open, .Local {
@@ -300,5 +301,30 @@ h2 {
 
 .Local {
   margin-top: -150px; }
+
+.Purposecontainer {
+  width: 100%;
+  height: 230px;
+  background-color: #FFEFD5; }
+
+.Core {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  color: #4e1c07;
+  margin-left: 5%;
+  padding-top: 50px; }
+
+.Purpose {
+  width: 266px;
+  height: 115px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  margin-left: 5%; }
 
 /*# sourceMappingURL=style.css.map */
