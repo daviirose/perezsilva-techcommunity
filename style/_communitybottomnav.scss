@@ -59,8 +59,7 @@ h2 {
 }
 .corevaluescontainer {
   width: 100%;
-  height:346px;
-  margin-bottom: 56px;
+  height:446px;
 }
 .coresubject {
   font-size: 21px;
@@ -68,7 +67,7 @@ h2 {
   line-height: 1.33;
   letter-spacing: 1px;
   color: #4e1c07;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 5%;
 }
 .Open {
@@ -78,11 +77,11 @@ h2 {
 	line-height: 1.33;
 	letter-spacing: 0.9px;
   margin-left: 5%;
-  margin-top: 10%;
+  margin-top: 30px;
 }
 .Transparent {
   width: 281px;
-  height: 239px;
+  height: auto;
   font-family: $font-stack;
   font-size: 16px;
   line-height: 1.5;
@@ -93,7 +92,6 @@ h2 {
 }
 .Local {
   @extend .Open;
-  margin-top: -150px;
 }
 .Primary {
   @extend .Transparent;

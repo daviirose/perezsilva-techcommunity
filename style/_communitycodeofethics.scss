@@ -1,0 +1,68 @@
+.codeofethicscontainer {
+  width: 100%;
+}
+.codeofethics{
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+  	color: #4e1c07;
+    margin: 43px 0px 10px 5%;
+}
+.digital {
+@extend ol;
+width: 320px;
+}
+ol {
+width: 70%;
+height: auto;
+font-family: $droid-font;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.8px;
+text-align: left;
+color: #021d2c;
+margin:0px 5% 20px 5%;
+}
+li {
+  margin-bottom: 10px;
+}
+.reserves {
+width: 70%;
+height: auto;
+font-family: $droid-font;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.8px;
+text-align: left;
+color: #021d2c;
+margin-left: 5%;
+margin-bottom: 71px;
+font-weight: bold;
+font-style: italic;
+}
+.Principlescontainer {
+  width: 100%;
+  height: 230px;
+  background-color: #FFEFD5;
+}
+.Principles {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  color: #4e1c07;
+  margin-left: 5%;
+  padding-top: 50px;
+}
+.freeopen {
+  width: 70%;
+	height: 141px;
+	font-family: $droid-font;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+	margin-left: 5%;
+  margin-top: 10px;
+	color: #021d2c;
+}
