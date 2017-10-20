@@ -1,3 +1,7 @@
+.communitycontainer {
+  @extend .s1;
+  height: 1169px;
+}
 .bottomline {
   @extend .div1;
   margin: 45px 2% 24px 2%;
@@ -7,25 +11,49 @@
   width: 219px;
 	height: 54px;
 	background-color: #eb503c;
+  margin: 0px 30% 0px 30%;
 }
 .contribute, .joinus {
   display: block;
   text-decoration: none;
 }
 .contributecontainer{
-  margin: 34px 0px 0px 0px;
+  width: 219px;
+  margin: 34px 57px 0px 96px;
+  padding-bottom: 10px;
 }
 .joinuscontainer {
-  margin: 14px 0px 0px 0px;
+  @extend .contributecontainer;
+  margin-top: 14px;
 }
 .contribute {
-  width: 106px;
+  width: 100%;
 	height: 15px;
 	font-family: $droid-font;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 3.83;
 	letter-spacing: 0.9px;
-	text-align: center;
 	color: #efe9d8;
+  margin: 0px 57px 0px 56px;
+}
+.joinus {
+  @extend .contribute;
+  margin:0px 22px 0px 21px;
+}
+.OurMeetup {
+  @extend .UpcomingMeetup;
+  margin-top: 34px;
+}
+h2 {
+  width: 259px;
+	height: auto;
+	font-family:$droid-font;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.71;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #4c1a14;
+  margin-left: 5%;
 }

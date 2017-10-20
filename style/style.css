@@ -98,12 +98,11 @@ body {
   height: auto;
   width: 100%; }
 
-.s1 {
+.s1, .communitycontainer {
   width: 100%;
   height: 700px;
   background-color: #ffab00;
   opacity: 0.9;
-  mix-blend-mode: multiply;
   padding-top: 30px; }
 
 .Techlancaster {
@@ -135,7 +134,7 @@ body {
   background-color: #ee3e28;
   margin: 45px 2% 24px 2%; }
 
-.UpcomingMeetup {
+.UpcomingMeetup, .OurMeetup {
   width: 45%;
   height: 11px;
   font-family: "Lato", sans-serif;
@@ -212,34 +211,58 @@ body {
 
   .lancaster {
     display: inline-flex; } }
+.communitycontainer {
+  height: 1169px; }
+
 .bottomline {
   margin: 45px 2% 24px 2%; }
 
-.contributecontainer, .joinuscontainer {
+.contributecontainer, .joinuscontainer, .joinuscontainer {
   display: block;
   width: 219px;
   height: 54px;
-  background-color: #eb503c; }
+  background-color: #eb503c;
+  margin: 0px 30% 0px 30%; }
 
-.contribute, .joinus {
+.contribute, .joinus, .joinus {
   display: block;
   text-decoration: none; }
 
-.contributecontainer {
-  margin: 34px 0px 0px 0px; }
+.contributecontainer, .joinuscontainer {
+  width: 219px;
+  margin: 34px 57px 0px 96px;
+  padding-bottom: 10px; }
 
 .joinuscontainer {
-  margin: 14px 0px 0px 0px; }
+  margin-top: 14px; }
 
-.contribute {
-  width: 106px;
+.contribute, .joinus {
+  width: 100%;
   height: 15px;
   font-family: "Droid Serif", serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 3.83;
   letter-spacing: 0.9px;
-  text-align: center;
-  color: #efe9d8; }
+  color: #efe9d8;
+  margin: 0px 57px 0px 56px; }
+
+.joinus {
+  margin: 0px 22px 0px 21px; }
+
+.OurMeetup {
+  margin-top: 34px; }
+
+h2 {
+  width: 259px;
+  height: auto;
+  font-family: "Droid Serif", serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.71;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #4c1a14;
+  margin-left: 5%; }
 
 /*# sourceMappingURL=style.css.map */
