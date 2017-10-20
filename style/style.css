@@ -8,7 +8,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, .digital, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-ol, ul {
+ol, .digital, ul {
   list-style: none; }
 
 blockquote, q {
@@ -267,7 +267,7 @@ h2 {
 
 .corevaluescontainer {
   width: 100%;
-  height: 346px; }
+  height: 446px; }
 
 .coresubject {
   font-size: 21px;
@@ -275,7 +275,7 @@ h2 {
   line-height: 1.33;
   letter-spacing: 1px;
   color: #4e1c07;
-  margin-top: 51px;
+  margin-top: 10%;
   margin-left: 5%; }
 
 .Open, .Local {
@@ -285,11 +285,11 @@ h2 {
   line-height: 1.33;
   letter-spacing: 0.9px;
   margin-left: 5%;
-  margin-top: 10%; }
+  margin-top: 30px; }
 
 .Transparent, .Primary {
   width: 281px;
-  height: 239px;
+  height: auto;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -298,7 +298,96 @@ h2 {
   color: #021d2c;
   margin-left: 5%; }
 
-.Local {
-  margin-top: -150px; }
+.Purposecontainer {
+  width: 100%;
+  height: 230px;
+  background-color: #FFEFD5; }
+
+.Core {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  color: #4e1c07;
+  margin-left: 5%;
+  padding-top: 50px; }
+
+.Purpose {
+  width: 266px;
+  height: 115px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  margin-left: 5%; }
+
+.codeofethicscontainer {
+  width: 100%; }
+
+.codeofethics {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  color: #4e1c07;
+  margin: 43px 0px 10px 5%; }
+
+.digital {
+  width: 320px; }
+
+ol, .digital {
+  width: 70%;
+  height: auto;
+  font-family: "Droid Serif", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  margin: 0px 5% 20px 5%; }
+
+li {
+  margin-bottom: 10px; }
+
+.reserves {
+  width: 70%;
+  height: auto;
+  font-family: "Droid Serif", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  margin-left: 5%;
+  margin-bottom: 71px;
+  font-weight: bold;
+  font-style: italic; }
+
+.Principlescontainer {
+  width: 100%;
+  height: 230px;
+  background-color: #FFEFD5; }
+
+.Principles {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  color: #4e1c07;
+  margin-left: 5%;
+  padding-top: 50px; }
+
+.freeopen {
+  width: 70%;
+  height: 141px;
+  font-family: "Droid Serif", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  margin-left: 5%;
+  margin-top: 10px;
+  color: #021d2c; }
 
 /*# sourceMappingURL=style.css.map */
