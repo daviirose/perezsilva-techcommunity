@@ -5,21 +5,22 @@ header {
   height: auto;
   background-color:$primary-color;
   a {
-    word-spacing: -32px;
+    word-spacing: -6px;
     text-decoration: none;
-    width: 100%;
+    width: 98%;
     height: 15px;
     font-family:$font-stack;
     font-size: 21px;
     line-height: 1.29;
     letter-spacing: 2.1px;
     color: $text-color;
-    margin: 21px 0px 0px 24px;
+    margin: 21px 0px 0px 0px;
   }
 }
     .tech {
       font-weight:$tech-weight;
-      width: 100%;
+      width: 98%;
+      margin-left: 2%;
     }
       .lancaster {
         font-weight:$lancaster-weight;

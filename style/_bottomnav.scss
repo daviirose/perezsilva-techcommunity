@@ -1,0 +1,99 @@
+.communitycontainer {
+  @extend .s1;
+  height: 1169px;
+}
+.bottomline {
+  @extend .div1;
+  margin: 45px 2% 24px 2%;
+}
+.contributecontainer, .joinuscontainer {
+  display: block;
+  width: 219px;
+	height: 54px;
+	background-color: #eb503c;
+  margin: 0px 30% 0px 30%;
+}
+.contribute, .joinus {
+  display: block;
+  text-decoration: none;
+}
+.contributecontainer{
+  width: 219px;
+  margin: 34px 57px 0px 96px;
+  padding-bottom: 10px;
+}
+.joinuscontainer {
+  @extend .contributecontainer;
+  margin-top: 14px;
+}
+.contribute {
+  width: 100%;
+	height: 15px;
+	font-family: $droid-font;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 3.83;
+	letter-spacing: 0.9px;
+	color: #efe9d8;
+  margin: 0px 57px 0px 56px;
+}
+.joinus {
+  @extend .contribute;
+  margin:0px 22px 0px 21px;
+}
+.OurMeetup {
+  @extend .UpcomingMeetup;
+  margin-top: 34px;
+}
+h2 {
+  width: 259px;
+	height: auto;
+	font-family:$droid-font;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.71;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #4c1a14;
+  margin-left: 5%;
+}
+.corevaluescontainer {
+  width: 100%;
+  height:346px;
+}
+.coresubject {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  color: #4e1c07;
+  margin-top: 51px;
+  margin-left: 5%;
+}
+.Open {
+  font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1.33;
+	letter-spacing: 0.9px;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.Transparent {
+  width: 281px;
+  height: 239px;
+  font-family: $font-stack;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  margin-left: 5%;
+}
+.Local {
+  @extend .Open;
+  margin-top: -150px;
+}
+.Primary {
+  @extend .Transparent;
+}
