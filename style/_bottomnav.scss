@@ -77,15 +77,23 @@ h2 {
 	line-height: 1.33;
 	letter-spacing: 0.9px;
   margin-left: 5%;
-  margin-top: 30px;
+  margin-top: 10%;
 }
 .Transparent {
   width: 281px;
-height: 239px;
-font-family: $font-stack;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.8px;
-text-align: left;
-color: #021d2c;
+  height: 239px;
+  font-family: $font-stack;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  margin-left: 5%;
+}
+.Local {
+  @extend .Open;
+  margin-top: -150px;
+}
+.Primary {
+  @extend .Transparent;
 }

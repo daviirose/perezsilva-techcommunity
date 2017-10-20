@@ -278,16 +278,16 @@ h2 {
   margin-top: 51px;
   margin-left: 5%; }
 
-.Open {
+.Open, .Local {
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
   line-height: 1.33;
   letter-spacing: 0.9px;
   margin-left: 5%;
-  margin-top: 30px; }
+  margin-top: 10%; }
 
-.Transparent {
+.Transparent, .Primary {
   width: 281px;
   height: 239px;
   font-family: "Lato", sans-serif;
@@ -295,6 +295,10 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.8px;
   text-align: left;
-  color: #021d2c; }
+  color: #021d2c;
+  margin-left: 5%; }
+
+.Local {
+  margin-top: -150px; }
 
 /*# sourceMappingURL=style.css.map */
