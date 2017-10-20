@@ -1,0 +1,15 @@
+@media screen and (max-width: 775px) and (min-width:480px){
+  header {
+    height: 100px;
+  }
+  a {
+  display: flex;
+  justify-content: center;
+  }
+  .tech {
+    display: inline-flex;
+  }
+  .lancaster {
+    display: inline-flex;
+  }
+}

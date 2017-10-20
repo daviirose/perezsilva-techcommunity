@@ -52,20 +52,21 @@ header {
   height: auto;
   background-color: #ffab00; }
   header a {
-    word-spacing: -32px;
+    word-spacing: -6px;
     text-decoration: none;
-    width: 100%;
+    width: 98%;
     height: 15px;
     font-family: "Lato", sans-serif;
     font-size: 21px;
     line-height: 1.29;
     letter-spacing: 2.1px;
     color: #064159;
-    margin: 21px 0px 0px 24px; }
+    margin: 21px 0px 0px 0px; }
 
 .tech {
   font-weight: normal;
-  width: 100%; }
+  width: 98%;
+  margin-left: 2%; }
 
 .lancaster {
   font-weight: 900;
@@ -197,5 +198,19 @@ body {
   line-height: 1.75;
   letter-spacing: 0.8px;
   color: #6f8998; }
+
+@media screen and (max-width: 775px) and (min-width: 480px) {
+  header {
+    height: 100px; }
+
+  a {
+    display: flex;
+    justify-content: center; }
+
+  .tech {
+    display: inline-flex; }
+
+  .lancaster {
+    display: inline-flex; } }
 
 /*# sourceMappingURL=style.css.map */
