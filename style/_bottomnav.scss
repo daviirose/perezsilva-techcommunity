@@ -1,0 +1,31 @@
+.bottomline {
+  @extend .div1;
+  margin: 45px 2% 24px 2%;
+}
+.contributecontainer, .joinuscontainer {
+  display: block;
+  width: 219px;
+	height: 54px;
+	background-color: #eb503c;
+}
+.contribute, .joinus {
+  display: block;
+  text-decoration: none;
+}
+.contributecontainer{
+  margin: 34px 0px 0px 0px;
+}
+.joinuscontainer {
+  margin: 14px 0px 0px 0px;
+}
+.contribute {
+  width: 106px;
+	height: 15px;
+	font-family: $droid-font;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 3.83;
+	letter-spacing: 0.9px;
+	text-align: center;
+	color: #efe9d8;
+}
