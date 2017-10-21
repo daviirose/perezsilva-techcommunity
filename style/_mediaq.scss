@@ -1,15 +1,26 @@
 @media screen and (max-width: 775px) and (min-width:480px){
+
   header {
-    height: 100px;
-  }
-  a {
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
   }
   .tech {
-    display: inline-flex;
+    margin-left: 30%;
+    display: flex;
   }
   .lancaster {
+    margin-right: 70%;
+    display: flex;
+  }
+  .comcontainer {
+    width: 98%;
     display: inline-flex;
+    margin-left: -320px;
+    margin-right: 2%;
+    padding-right: 4px;
+  }
+  .main-container {
+    display: inline-flex;
+    margin-left: 10px;
   }
 }
